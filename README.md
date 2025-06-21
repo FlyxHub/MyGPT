@@ -7,3 +7,4 @@ World's best ChatGPT wrapper
 3. Learn OpenAI API
 4. Integrate OpenAI API
 5. Rake in money crazy style
+6. Take over the world while wearing really cool glasses
