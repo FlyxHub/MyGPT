@@ -1,4 +1,4 @@
-# MyGPT - The world's best ChatGPT wrapper
+# MyGPT - The World's Best ChatGPT Wrapper
 
 ### Getting Started
 
@@ -22,4 +22,4 @@ npm run dev
 - [ ] Learn how to integrate and use OpenAI API
 - [ ] Produce a functional ChatGPT Wrapper
 - [ ] Improvise, Adapt, Overcome (Find a niche and get rich)
-
+- [ ] Mobile app?
