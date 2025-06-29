@@ -23,3 +23,13 @@ npm run dev
 - [ ] Produce a functional ChatGPT Wrapper
 - [ ] Improvise, Adapt, Overcome (Find a niche and get rich)
 - [ ] Mobile app?
+- [ ] Probably vide code the entire thing
+
+### Links
+
+[React documentation](https://react.dev/)
+[Git documentation](https://git-scm.com/)
+[Tailwind CSS Documentation](https://tailwindcss.com/)
+[OpenAI API Documentation](https://openai.com/api/)
+
+
