@@ -1,11 +1,6 @@
-# MyGPT
-## The world's best ChatGPT wrapper!
+# MyGPT - The world's best ChatGPT wrapper
 
----
-
-### Getting Started
-
-Install dependencies
+Installing dependencies
 
 ```bash
 npm install
