@@ -16,6 +16,9 @@ npm run dev
 
 ### To-Do
 
-- [] Test1
-- [ ] Test2
-- [x] Test3
+- [ ] Learn how React works
+- [x] Learn enough Git to work on a project
+- [ ] Learn wtf Tailwind CSS is and how to use it
+- [ ] Learn how to integrate and use OpenAI API
+- [ ] Produce a functional ChatGPT Wrapper
+- [ ] Improvise, Adapt, Overcome (Find a niche and get rich)
