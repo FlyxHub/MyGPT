@@ -27,7 +27,7 @@ npm run dev
 
 ### Links
 
-[React documentation](https://react.dev/)
+[React documentation](https://react.dev/) \
 [Git documentation](https://git-scm.com/)
 [Tailwind CSS Documentation](https://tailwindcss.com/)
 [OpenAI API Documentation](https://openai.com/api/)
