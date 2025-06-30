@@ -17,6 +17,7 @@ npm run dev
 ### To-Do
 
 - [ ] Learn how React works
+- [ ] Learn how to add multiple pages with React Router
 - [x] Learn enough Git to work on a project
 - [ ] Learn wtf Tailwind CSS is and how to use it
 - [ ] Learn how to integrate and use OpenAI API
@@ -31,3 +32,4 @@ npm run dev
 - [Git documentation](https://git-scm.com/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation/framework-guides/react-router)
 - [OpenAI API Documentation](https://platform.openai.com/docs/overview)
+- [React Bits](https://reactbits.dev)
