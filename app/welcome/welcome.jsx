@@ -64,6 +64,10 @@ export function Welcome() {
             Join the Discord!
           </a>
         </div>
+
+        <div>
+          <a href="/about">Click me!</a>
+        </div>
       </div>
     </main>
   );
