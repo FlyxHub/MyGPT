@@ -1,5 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+import SplitText from "../../src/TextAnimations/SplitText/SplitText"
 
 export function Welcome() {
   return (
@@ -9,7 +10,19 @@ export function Welcome() {
         <header className="flex flex-col items-center gap-9">
 
           <div className="w-[500px] max-w-[100vw] p-4">
-            <h1 className="text-5xl text-center font-bold mb-15 text-gray-700 dark:text-gray-200">Welcome to MyGPT</h1>
+            <SplitText
+              text="Welcome to MyGPT"
+              className="text-5xl text-center font-bold mb-15 text-gray-700 dark:text-gray-200 pb-2 leading-[1.2]"
+              delay={100}
+              duration={0.6}
+              ease="power3.out"
+              splitType="chars"
+              from={{ opacity: 0, y: 40 }}
+              to={{ opacity: 1, y: 0 }}
+              threshold={0.1}
+              rootMargin="-100px"
+              textAlign="center"
+            />
             <p className="text-center mb-5 text-gray-700 dark:text-gray-200">Powered by</p>
             <img
               src={logoLight}
