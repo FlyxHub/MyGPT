@@ -28,7 +28,7 @@ npm run dev
 ### Links
 
 - [React documentation](https://react.dev/)
-- [Git documentation](https://git-scm.com/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
-- [OpenAI API Documentation](https://openai.com/api/)
+- [Git documentation](https://git-scm.com/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation/framework-guides/react-router)
+- [OpenAI API Documentation](https://platform.openai.com/docs/overview)
 
