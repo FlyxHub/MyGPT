@@ -2,13 +2,13 @@
 
 ### Getting Started
 
-Installing dependencies
+Installing dependencies:
 
 ```bash
 npm install
 ```
 
-Start a development server
+Running the development environment:
 
 ```bash
 npm run dev
