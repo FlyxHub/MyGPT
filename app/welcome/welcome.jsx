@@ -7,8 +7,8 @@ export function Welcome() {
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
         <header className="flex flex-col items-center gap-9">
           <div className="w-[500px] max-w-[100vw] p-4">
-            <h1 className="text-5xl text-center font-bold mb-15">Welcome to MyGPT</h1>
-            <p className="text-center mb-5">Powered by</p>
+            <h1 className="text-5xl text-center font-bold mb-15 text-gray-700 dark:text-gray-200">Welcome to MyGPT</h1>
+            <p className="text-center mb-5 text-gray-700 dark:text-gray-200">Powered by</p>
             <img
               src={logoLight}
               alt="React Router"
@@ -26,7 +26,7 @@ export function Welcome() {
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
               The Development Team:
             </p>
-            <ul className="text-center">
+            <ul className="text-center text-gray-700 dark:text-gray-200">
               <li>Flyx</li>
               <li>4DollarOrphan</li>
               {/*
