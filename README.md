@@ -1,10 +1,34 @@
-# MyGPT
-World's best ChatGPT wrapper
+# MyGPT - The World's Best ChatGPT Wrapper
 
-## To-Do List
-1. Learn NextJS/React
-2. Build site with NextJS/React
-3. Learn OpenAI API
-4. Integrate OpenAI API
-5. Rake in money crazy style
-6. Take over the world while wearing really cool glasses
+### Getting Started
+
+Installing dependencies:
+
+```bash
+npm install
+```
+
+Running the development environment:
+
+```bash
+npm run dev
+```
+
+### To-Do
+
+- [ ] Learn how React works
+- [x] Learn enough Git to work on a project
+- [ ] Learn wtf Tailwind CSS is and how to use it
+- [ ] Learn how to integrate and use OpenAI API
+- [ ] Produce a functional ChatGPT Wrapper
+- [ ] Improvise, Adapt, Overcome (Find a niche and get rich)
+- [ ] Mobile app?
+- [ ] Probably vide code the entire thing
+
+### Links
+
+- [React documentation](https://react.dev/)
+- [Git documentation](https://git-scm.com/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation/framework-guides/react-router)
+- [OpenAI API Documentation](https://platform.openai.com/docs/overview)
+
