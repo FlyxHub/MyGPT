@@ -11,9 +11,9 @@ export function Welcome() {
 
           <div className="w-[500px] max-w-[100vw] p-4">
             <SplitText
-              text="Welcome to MyGPT"
+              text="Welcome to MyGPT!"
               className="text-5xl text-center font-bold mb-15 text-gray-700 dark:text-gray-200 pb-2 leading-[1.2]"
-              delay={100}
+              delay={50}
               duration={0.6}
               ease="power3.out"
               splitType="chars"
