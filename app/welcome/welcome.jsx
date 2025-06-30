@@ -48,6 +48,7 @@ export function Welcome() {
             <ul className="text-center text-gray-700 dark:text-gray-200">
               <li>Flyx</li>
               <li>4DollarOrphan</li>
+              <li>SwervinIrvin</li>
               {/* Sign here and PR to be listed on Github*/}
             </ul>
 
