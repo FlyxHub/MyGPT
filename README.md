@@ -33,7 +33,3 @@ npm run dev
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation/framework-guides/react-router)
 - [OpenAI API Documentation](https://platform.openai.com/docs/overview)
 - [React Bits](https://reactbits.dev)
-
-### Notes
-
-Ben is a weiner lover
