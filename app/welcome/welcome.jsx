@@ -27,7 +27,10 @@ export function Welcome() {
             <ul className="text-center">
               <li>Flyx</li>
               <li>4DollarOrphan</li>
-              {/* Sign here and submit PR to be listed as contributor */}
+              {/*
+                Sign here and submit PR to be listed as a contributor.
+                I'm looking at YOU, Louis...  
+              */}
             </ul>
           </nav>
         </div>
