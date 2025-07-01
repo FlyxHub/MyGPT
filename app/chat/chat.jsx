@@ -3,13 +3,15 @@ import { useState } from "react";
 export function Chat() {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState("");
-    const [responses, setResponses] = useState([]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (input.trim() === "") return;
-        setMessages([...messages, input]);
-        setResponses(["Hello world!", responses]) /* Hard coded "GPT" response */
+        setMessages([
+            ...messages,
+            { type: "user", text: input },
+            { type: "gpt", text: "Hello world!" }
+        ]);
         setInput("");
     };
 
@@ -30,14 +32,16 @@ export function Chat() {
                             <span className="text-gray-400">No messages yet.</span>
                         ) : (
                             messages.map((msg, idx) => (
-                                <div key={idx} className="text-left break-words">{msg}</div>
-                            ))
-                        )}
-                        {responses.length === 0 ? (
-                            <span className="text-gray-400"></span>
-                        ) : (
-                            responses.map((msg, idx) => (
-                                <div key={idx} className="text-right break-words">{msg}</div>
+                                <div
+                                    key={idx}
+                                    className={
+                                        msg.type === "user"
+                                            ? "text-left break-words text-blue-200"
+                                            : "text-right break-words text-green-300"
+                                    }
+                                >
+                                    {msg.text}
+                                </div>
                             ))
                         )}
                     </div>
