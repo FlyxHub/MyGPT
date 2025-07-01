@@ -1,7 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 import SplitText from "../../src/TextAnimations/SplitText/SplitText"
-import React from 'react';
 import Navigation from "./Navigation";
 
 export function Welcome() {
