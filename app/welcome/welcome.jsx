@@ -1,15 +1,18 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 import SplitText from "../../src/TextAnimations/SplitText/SplitText"
+import React from 'react';
+import Navigation from "./Navigation";
 
 export function Welcome() {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
+      <Navigation />
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
 
         <header className="flex flex-col items-center gap-9">
 
-          <div className="w-[520px] max-w-[100vw] p-4">
+          <div className="w-[510px] max-w-[100vw] p-4">
             <SplitText
               text="Welcome to MyGPT!"
               className="text-5xl text-center font-bold mb-15 text-gray-700 dark:text-gray-200 pb-2 leading-[1.2]"
