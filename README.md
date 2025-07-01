@@ -25,7 +25,6 @@ npm run dev
 - [ ] Improvise, Adapt, Overcome (Find a niche and get rich)
 - [ ] Mobile app?
 - [x] Probably vide code the entire thing
-- [ ] Discord webhook?
 
 ### Links
 
