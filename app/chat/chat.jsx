@@ -10,7 +10,7 @@ export function Chat() {
         setMessages([
             ...messages,
             { type: "user", text: input },
-            { type: "gpt", text: "Hello world!" }
+            { type: "gpt", text: input }
         ]);
         setInput("");
     };
@@ -32,16 +32,20 @@ export function Chat() {
                             <span className="text-gray-400">No messages yet.</span>
                         ) : (
                             messages.map((msg, idx) => (
-                                <div
-                                    key={idx}
-                                    className={
-                                        msg.type === "user"
-                                            ? "text-left break-words text-blue-200"
-                                            : "text-right break-words text-green-300"
-                                    }
-                                >
-                                    {msg.text}
-                                </div>
+                                msg.type === "user" ? (
+                                    <div
+                                        key={idx}
+                                        className="text-left break-words"
+                                    >
+                                        {msg.text}
+                                    </div>
+                                ) : (
+                                    <div key={idx} className="flex justify-end">
+                                        <span className="break-words rounded-3xl bg-gray-700 px-4 py-2 my-2 shadow-md inline-block">
+                                            {msg.text}
+                                        </span>
+                                    </div>
+                                )
                             ))
                         )}
                     </div>
