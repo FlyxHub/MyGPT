@@ -9,7 +9,7 @@ export function Welcome() {
 
         <header className="flex flex-col items-center gap-9">
 
-          <div className="w-[510px] max-w-[100vw] p-4">
+          <div className="w-[520px] max-w-[100vw] p-4">
             <SplitText
               text="Welcome to MyGPT!"
               className="text-5xl text-center font-bold mb-15 text-gray-700 dark:text-gray-200 pb-2 leading-[1.2]"
