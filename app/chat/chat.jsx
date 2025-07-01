@@ -5,18 +5,21 @@ export function Chat() {
 
                 <header className="flex flex-col items-center gap-9">
                     <div className="w-[500px] max-w-[100vw] p-4">
-                        <h1 className="text-4xl font-bold text-center">This is the About Page</h1>
-                        <p className="text-center mt-5">Look at all this useful info!</p>
+                        <h1 className="text-4xl font-bold text-center">This is the Chat Page</h1>
                     </div>
                 </header>
 
                 <div className="max-w-[500px] w-full space-y-6 px-4">
-                    <nav className="rounded-3xl border border-gray-500 p-5 text-center">
-                        <p>
-                            Lots of useful info will maybe go in this box at some point.
-                            Until then, this is all you get lol.
-                        </p>
-                    </nav>
+
+                    <div className="rounded-3xl bg-gray-700 w-full py-25">
+                        {/* Chat items will go here... Eventually. */}
+                    </div>
+
+                    <form className="flex">
+                        <input type="text" className="border-gray-700 border w-full rounded-3xl px-3 py-2"></input>
+                        <a className="rounded-3xl border-gray-700 border hover:border-white p-5 mx-5">Submit</a>
+                    </form>
+
                 </div>
 
                 <a
