@@ -5,7 +5,7 @@
 Installing dependencies:
 
 ```bash
-npm install
+npm install mygpt (?)
 ```
 
 Running the development environment:
