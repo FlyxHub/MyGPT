@@ -41,28 +41,24 @@ const Navigation = () => {
         {/* Hamburger Icon */}
         <div className="w-6 h-5 relative">
           <span
-            className={`block absolute h-0.5 w-full bg-white rounded-sm transition-all duration-300 ${
-              isOpen ? 'top-2 rotate-45' : 'top-0'
-            }`}
+            className={`block absolute h-0.5 w-full bg-white rounded-sm transition-all duration-300 ${isOpen ? 'top-2 rotate-45' : 'top-0'
+              }`}
           />
           <span
-            className={`block absolute h-0.5 w-full bg-white rounded-sm transition-all duration-300 ${
-              isOpen ? 'opacity-0 -left-16' : 'opacity-100 top-2'
-            }`}
+            className={`block absolute h-0.5 w-full bg-white rounded-sm transition-all duration-300 ${isOpen ? 'opacity-0 -left-16' : 'opacity-100 top-2'
+              }`}
           />
           <span
-            className={`block absolute h-0.5 w-full bg-white rounded-sm transition-all duration-300 ${
-              isOpen ? 'top-2 -rotate-45' : 'top-4'
-            }`}
+            className={`block absolute h-0.5 w-full bg-white rounded-sm transition-all duration-300 ${isOpen ? 'top-2 -rotate-45' : 'top-4'
+              }`}
           />
         </div>
       </button>
 
       {/* Side Navigation */}
       <nav
-        className={`fixed top-0 left-0 h-full w-80 bg-gray-900 bg-opacity-95 backdrop-blur-xl border-r border-gray-700 transform transition-transform duration-300 z-40 ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
-        }`}
+        className={`fixed top-0 left-0 h-full w-80 bg-gray-900 bg-opacity-95 backdrop-blur-xl border-r border-gray-700 transform transition-transform duration-300 z-40 ${isOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
       >
         <div className="pt-20 px-8">
           <ul className="space-y-6">
@@ -70,15 +66,14 @@ const Navigation = () => {
               <li key={item.name} className="border-b border-gray-700 border-opacity-50 last:border-b-0">
                 <a
                   href={item.path}
-                  className={`block px-8 py-5 text-white text-lg font-medium hover:bg-blue-500 hover:bg-opacity-20 hover:pl-10 transition-all duration-300 rounded-lg ${
-                    item.name === 'Home' ? 'bg-gray-700 bg-opacity-50 border-l-4 border-blue-500' : ''
-                  }`}
+                  className={`block px-8 py-5 text-white text-lg font-medium hover:bg-blue-500 hover:bg-opacity-20 hover:pl-10 transition-all duration-300 rounded-lg ${item.name === 'Home' ? 'bg-gray-700 bg-opacity-50 border-l-4 border-blue-500' : ''
+                    }`}
                   onClick={(e) => {
                     e.preventDefault();
                     closeMenu();
                     // For React Router navigation:
                     // navigate(item.path);
-                    
+
                     // For now, simple navigation:
                     window.location.href = item.path;
                   }}
@@ -93,9 +88,8 @@ const Navigation = () => {
 
       {/* Overlay */}
       <div
-        className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 z-30 ${
-          isOpen ? 'opacity-50 visible' : 'opacity-0 invisible'
-        }`}
+        className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 z-30 ${isOpen ? 'opacity-50 visible' : 'opacity-0 invisible'
+          }`}
         onClick={closeMenu}
       />
     </>
